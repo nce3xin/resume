@@ -1,6 +1,8 @@
 # My Resume
-![](imgs/page_1.png)
-![](imgs/page_2.png)
+A LaTeX-based resume compiled with XeLaTeX.
+
+![](imgs/resume-1.png)
+![](imgs/resume-2.png)
 
 ## Thanks
 - [Billryan resume template](https://github.com/billryan/resume/)
