@@ -7,58 +7,58 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{张欣}
+\name{Xin Zhang}
 
 \basicInfo{
   \email{zhangx@dsp.ac.cn} \textperiodcentered\ 
   \phone{(+86) 130-2120-2677} \textperiodcentered\ 
   \github[https://github.com/nce3xin]{https://github.com/nce3xin}}
 
-\section{教育背景}
-\datedsubsection{\textbf{中国科学院大学} \quad 国家网络新媒体工程技术研究中心 \quad 硕博连读}{2015 -- 2020}
+\section{Education}
+\datedsubsection{\textbf{University of Chinese Academy of Sciences},\textit{Beijing}}{2015 -- 2020}
 %\textit{Master student} in Electronics Engineering (EE), expected March 2016
-信号与信息处理专业
-\datedsubsection{\textbf{中国传媒大学}\quad 信息工程学院\quad 工学学士}{2011 -- 2015}
+\textit{Ph.D. candidate} in National Network New Media Engineering Research Center
+\datedsubsection{\textbf{Communication University of China}, \textit{Beijing}}{2011 -- 2015}
 %\textit{B.S.} in Electronics Engineering (EE)
-GPA: 3.81 / 4 \quad 专业排名：Top 2\% / 103 \quad 保研
+GPA: 3.81 / 4 \quad Ranking：Top 2\% / 103 \quad Recommended Postgraduate
 
-\section{项目经历}
-\datedsubsection{\textbf{智能路由器项目} }{2016年7月 -- 2018年3月}
-\role{项目描述}{中科院战略先导专项，“面向感知中国的新一代信息技术研究”。该项目通过汇聚网络边缘设备，利用节点的自治管理和协作，实时构建面向内容服务的网络，提供可靠、实时、高效的服务响应。}
+\section{Project Experience}
+\datedsubsection{\textbf{Intelligent Router Service Platform} }{Jul. 2016 -- Mar. 2018}
+\role{Project Description}{The Chinese Academy of Sciences' strategic pilot project, "Research on a new generation of information technology for China." The project builds a network of content-oriented services in real time by aggregating network edge devices and utilizing autonomous management and collaboration of nodes to provide reliable, real-time and efficient service response.}
 %Brief introduction: xxx.
 \begin{itemize}
   %\item 项目描述：中科院战略先导专项，“面向感知中国的新一代信息技术研究”，目标是利用网络边缘设备，提供现场、弹性、自治服务。
-  \item 创新性提出基于网络边缘设备的分布式内容扩散系统；
-  \item 提出一种基于PageRank的缓存节点选择算法，服务拒绝率降低\textbf{[4.4\%-8.2\%]}；
-  \item 提出轻量级分布式近似估计方法，解决全局PageRank迭代计算复杂度高的问题。
+  \item Innovatively proposed a decentralized content dissemination system based on the network edge devices;
+  \item A PageRank-based node selection algorithm is proposed, and the service rejection rate is reduced by \textbf{[4.4\%-8.2\%]}；
+  \item A lightweight decentralized approximation method is proposed to solve the problem of high complexity of global PageRank iterative calculation.
 \end{itemize}
 
-\datedsubsection{\textbf{电影评论水军检测系统}}{2018年5月 -- 2018年8月}
-\role{项目描述}{基于深度学习对网络上的水军进行检测，要求在样本不均衡、标签缺失的情况下，提升整体以及各类别的准确率、召回率等分类性能指标。}
+\datedsubsection{\textbf{Detecting Spam Reviewers for Movies on the Web}}{May. 2018 -- Aug. 2018}
+\role{Project Description}{Detecting spam reviewers for movies based on the deep learning approach. It is required to improve the classification performance metrics such as accuracy and recall rate in the case of unbalanced samples and missing labels.}
 %Brief introduction: xxx
 \begin{itemize}
-  \item 创新性提出了Temporal-Spatial Mapping方法，将向量映射到二维灰度图像，引入CNN提取压缩特征；
-  \item 基于过采样的SMOTE算法合成新样本，降低过拟合风险，解决类别样本不均衡问题；
-  \item 提出基于聚类辅助的手动标注方法，加快新数据集的手动标注过程，解决标签缺失问题；
-  \item 实验表明，至少\textbf{29\%}的误判可以得到纠正，特别是对于故意模仿普通用户的垃圾评论者。
+  \item Innovatively proposed the Temporal-Spatial Mapping method, which maps vectors to two-dimensional grayscale images and introduces CNN to extract compression features;
+  \item Synthesizing new samples based on the oversampling SMOTE algorithm to reduce over-fitting risk and solve sample imbalance problem;
+  \item A manual labeling method assisted by clustering is proposed to speed up the manual labeling process of new datasets;
+  \item Experiments show that at least \textbf{29\%} misjudgments can be corrected, especially for spammers who deliberately imitate ordinary users.
 \end{itemize}
 
 
-\datedsubsection{\textbf{数据包捕获与分析软件开发}}{2016年3月 -- 2016年5月}
-\role{项目描述}{从.pcap文件中解析以下8种协议内容：ARP, IP, ICMP, RIP, OSPF, UDP, TCP, DHCP}
+\datedsubsection{\textbf{Packet Analysis Software Development}}{Mar. 2016 -- May. 2016}
+\role{Project Description}{The following eight protocols are parsed from the .pcap file: ARP, IP, ICMP, RIP, OSPF, UDP, TCP, DHCP.}
 %Brief introduction: xxx
 \begin{itemize}
-  \item 独立搭建解析系统(C++语言)；
-  \item 编写Wireshark抓包格式.pcap文件解析引擎;
-  \item 基于Qt接口开发图形界面。
+  \item Building the parsing system independently (C++)；
+  \item Building the parsing engine for Wireshark's capture format: .pcap file;
+  \item Developing a GUI based on Qt interface.
 \end{itemize}
 
-\datedsubsection{\textbf{边缘智能技术研究}}{2018年10月 -- 2019年3月}
-\role{项目描述}{关于边缘智能算法的研究主要应用于终端设备资源受限情况下的模型学习能力问题。目标是实现深度学习算法的轻量化，多终端协作计算，收敛速度快，消耗资源少，提供快速响应能力，是5G的主要需求场景。}
+\datedsubsection{\textbf{Research on Edge Intelligence Technology}}{Oct. 2018 -- Mar. 2019}
+\role{Project Description}{The research on edge intelligence algorithm is mainly applied to the model learning ability problem when the terminal resources are limited. The goal is to achieve lightweight learning of deep learning algorithms, multi-terminal collaborative computing, fast convergence, low resource consumption, and rapid response capability. It is the main demand scenario for 5G and the Internet of Things.}
 %Brief introduction: xxx
 \begin{itemize}
-  \item 以中心化深度学习算法为基础，对其分布式、轻量化、网络边缘部署的可能性进行研究；
-  \item 该课题为本人博士论文研究方向，研究仍在进行中。
+  \item Based on the centralized deep learning algorithms, the possibility of distributed, lightweight and deployment at the edge of the network is studied.
+  \item This topic is the research direction of my doctoral thesis, and the research is still in progress.
 \end{itemize}
 
 
@@ -70,51 +70,51 @@ GPA: 3.81 / 4 \quad 专业排名：Top 2\% / 103 \quad 保研
 %  \item main contribution
 %\end{itemize}
 
-\section{科研成果}
+\section{Academic Achievements}
 \begin{itemize}[parsep=0.5ex]
-  \item \textbf{Zhang, X.}, You, J., Xue, H., \& Wang, J. (2019). A Decentralized PageRank Based Content Dissemination Model in the Edge of Network. \textit{International Journal of Web Services Research, IJWSR} (SCI期刊，第一作者)
-  \item You, J., \textbf{Zhang, X.}, Lian, W., Detecting Spam Reviewers for Movies on the Web. \textit{ACM Transactions on the web} (SCI期刊在投，学生一作)
-  \item You, J., Xue, H., Zhuo, Y., \textbf{Zhang, X.}, \& Wang, J. (2017). Forecasting Service Performance on the Basis of Temporal Information by the Conditional Restricted Boltzmann Machine. \textit{IEICE Transactions on Communications.} (SCI期刊)
-  \item 专利：“一种基于相似度估计的分布式PageRank加速方法”，申请号：BDI170716
-  \item 专利：“一种节点自组网中基于覆盖率动态调整的内容分发方法”，申请号：201810027211.2
+  \item \textbf{Zhang, X.}, You, J., Xue, H., \& Wang, J. (2019). A Decentralized PageRank Based Content Dissemination Model in the Edge of Network. \textit{International Journal of Web Services Research, IJWSR} (SCI Journal, the first author)
+  \item You, J., \textbf{Zhang, X.}, Lian, W., Detecting Spam Reviewers for Movies on the Web. \textit{ACM Transactions on the web} (SCI Journal, under review, the first author)
+  \item You, J., Xue, H., Zhuo, Y., \textbf{Zhang, X.}, \& Wang, J. (2017). Forecasting Service Performance on the Basis of Temporal Information by the Conditional Restricted Boltzmann Machine. \textit{IEICE Transactions on Communications.} (SCI Journal)
+  \item Patent："A Decentralized PageRank Acceleration Method Based on Similarity Estimation"，Application number：BDI170716
+  \item Patent："A Content distribution method based on the dynamic adjustment of coverage rate in node self-organizing network"，Application number：201810027211.2
 \end{itemize}
 
-\section{荣誉奖励}
-\datedline{优秀学生干部，中国科学院大学}{2017}
-\datedline{三好学生，中国科学院大学}{2016}
-\datedline{优秀党员，中国科学院大学}{2016}
-\datedline{北京市优秀毕业生，中国传媒大学优秀毕业生}{2015}
-\datedline{中央三台奖学金，中国传媒大学}{2012-2013}
-\datedline{日本TBS电视台奖学金，中国传媒大学}{2014}
+\section{Honors and Awards}
+\datedline{Excellent Student Cadre，University of Chinese Academy of Sciences}{2017}
+\datedline{Merit Studen, University of Chinese Academy of Sciences}{2016}
+\datedline{Outstanding Party Member, University of Chinese Academy of Sciences}{2016}
+\datedline{Outstanding Graduates of Beijing, Communication University of China}{2015}
+\datedline{Scholarship of CCTV, Central People's Broadcasting Station, China Radio International,Communication University of China}{2012-2013}
+\datedline{Japanese TBS TV Scholarship, Communication University of China}{2014}
 
 
 
-\section{专业技能}
+\section{Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item 通过CET-6，能够流畅进行英文阅读、写作和交流；
-  \item 熟练掌握C++, Python等编程语言以及Linux系统；
-  \item 熟练掌握基本数据结构和算法，有良好的编程风格；
-  \item 熟练掌握深度学习领域基本算法以及PyTorch等深度学习工具。
+  \item CET-6, fluent English reading, writing and communication skills;
+  \item Familiar with C++, Python and linux systems;
+  \item Familiar with basic data structures and algorithms, with good programming style;
+  \item Proficiency in basic deep learning algorithms and deep learning tools such as PyTorch.
 \end{itemize}
 
-\section{实践经历}
+\section{Social experience}
 \begin{itemize}[parsep=0.5ex]
-  \item \datedline{中科院声学研究所研究生会部长}{2016年9月-2017年8月}
-  \item \datedline{中国科学院“公众科学开放日”志愿者}{2017年5月20日}
+  \item \datedline{Minister of the Graduate School of the Institute of Acoustics, Chinese Academy of Sciences}{Sep. 2016 -- Aug. 2017}
+  \item \datedline{Volunteer of the Public Science Open Day of the Chinese Academy of Sciences}{$20^{th}$ May. 2017}
 \end{itemize}
 
-\section{个人评价}
+\section{Personal evaluation}
 \begin{itemize}[parsep=0.5ex]
-  \item 责任心强，有团队合作意识，工作态度积极；
-  \item 学习能力强，乐于接受新鲜事物；
-  \item 具有一定艺术技能：
+  \item Strong sense of responsibility, teamwork awareness, positive work attitude;
+  \item Strong learning ability and willing to accept new things;
+  \item Certain artistic skills:
   \begin{itemize}[parsep=0.5ex]
-    \item[*] 钢琴八级、电子琴九级；
-    \item[*] 擅长手绘与平面设计，熟练运用Adobe Photoshop、Adobe Illustrator与Adobe After Effects；
-    \item[*] 视频剪辑，曾剪辑技术视频协助实验室提出的5G标准在ITU国际会议上顺利立项；
-    \item[*] 热爱乒乓球、台球、音乐、摄影。乒乓球曾获团体比赛第一名。
+    \item[*] Grade 8 of Piano, Grade 9 of Electronic Piano;
+    \item[*] Skilled in hand drawing and graphic design, proficient in Adobe Photoshop, Adobe Illustrator and Adobe After Effects. See my \href{https://nce3xin.github.io/design-portfolio/}{\textbf{portfolio}};
+    \item[*] Video editing, once edited technical videos, helped the lab's 5G standard to be successfully established at the ITU International Conference;
+    \item[*] Love table tennis, billiards, music, photography. Once participated in the table tennis team competition and won the first place.
   \end{itemize}
-  \item 个人网站：\href{https://code.nce3xin.me/}{https://code.nce3xin.me/}
+  \item Personal website: \href{https://code.nce3xin.me/}{https://code.nce3xin.me/}
 \end{itemize}
 
 %% Reference
