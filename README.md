@@ -1,7 +1,7 @@
 # My Resume
 A LaTeX-based resume compiled with XeLaTeX.
 
-Click [pdf](resume.pdf) for download.
+Click <a href="resume.pdf" >pdf</a> for download.
 
 For English version, please go to [en-us branch](https://github.com/nce3xin/resume/tree/en-us).
 
